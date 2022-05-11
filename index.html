@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>fomrs</title>
+	 <link rel="stylesheet" type="text/css" href="body.css">
+</head>
+<body>
+	 
+    <div id="formularz">
+        Formularze
+    </div>
+    <div id="nag">
+    	<a href="index.html" >
+            Formularz 1
+        </a>
+         <a href="forms2.html">
+            Formularz 2
+        </a>
+         <a href="forms3.html" >
+            Formularz 3
+        </a>
+        <a href="forms4.html" >
+            Formularz 4
+        </a>
+    	 
+         <a href="forms5.html">
+            Formularz 5
+        </a>
+        <a href="forms6.html" >
+            Formularz 6
+            </a>
+         
+        
+        
+        
+    </div>
+    <br>
+	<div id="for1">
+		Formularz kontaktowy
+		<form action="mailto:aleks.maksimov@tml.edu.pl" method="POST">
+			<p>
+				Nazwisko:<br>
+				<input type="text" name="nazwisko">
+			</p>
+			<p>
+				Imię:<br>
+				<input type="text" name="imię">
+			</p>
+			<p>
+				Wykszatłcenie:<br>
+				<input id="lew" type="radio" name="Wykszatłcenie" value="podstawowe" checked />Podstawowe<br>
+				 <input id="lew" type="radio" name="Wykszatłcenie" value="średnie" />Średnie<br> 
+				 <input id="lew" type="radio" name="Wykszatłcenie" value="wyższe" />Wyższe<br><br>
+			</p>
+			<p>
+				W jakim języku programujesz?:<br>
+				<input type="checkbox" name="pro" value="C++">C++</input><br>
+				<input type="checkbox" name="pro" value="Javascript">JavaScript</input><br>
+				<input type="checkbox" name="pro" value="PHP">PHP</input><br>
+				<input type="checkbox" name="pro" value="Java">Java</input><br>
+				<input type="checkbox" name="pro" value="Python">Python</input><br>
+			</p>
+			<p>
+				<input type="checkbox" name="opcje" maxlength="1" />Zgadzam się na przetwarzanie danych osobowych<br>
+			</p>
+			<p>
+				Wiek:<br>
+				<select name="Wiek"><option>0-17</option><option>18-40</option> <option>41-60</option>
+				<option>powyżej 60</option> </select>
+			</p>
+			<p>
+				Uwagi:<br>
+				<textarea rows="6" cells="17">Wpisz uwagi</textarea>
+			</p>
+			<p>
+				<input id="inp2" type="submit" name="wyslij" value="Wyślij" />&nbsp;&nbsp;
+				<input id="inp2" type="reset" name="zeruj" value="Wyczyść" />
+			</p>
+		</form>
+	</div>
+</body>
+</html>

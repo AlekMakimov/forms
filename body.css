@@ -1,0 +1,105 @@
+body
+{
+    background-color: #7B9B59;
+    margin: 1vh 1vw 0 1vw;
+   text-align: center;
+   vertical-align:middle ;
+    color:#2E4119 ;
+    font-family: Trebuchet MS;
+}
+
+
+
+
+a{
+    font-size: 4vh;
+    height: 7vh;
+    background-color: #9FBA81;
+    display: inline-block;
+    border-color:#446620 ;
+    border-style: solid;
+    border-radius: 50px;
+    text-decoration: none;
+    color:#2E4119 ;
+    padding:0.5vh 1vh 0vh 1vh;
+}
+table{
+    text-align: center;
+    display:inline;
+}
+#formularz{
+    font-size:4vh;
+    background-color: #5A773B;
+    float: left;
+     border-radius: 50px;
+     height: 7vh;
+    padding:0.5vh 1vh 0vh 1vh;
+}
+#for1{
+    font-size: 3vh;
+    margin-left: auto;
+    margin-right: auto;
+   background-color: #7B9B59;
+    border-radius: 50px;
+     height: 7vh;
+     margin-top: 5%;
+     float: none;
+     display: block;
+    
+}
+#nag{
+        background-color: #7B9B59;
+        float:right ;
+
+}
+input{
+    background-color: #7B9B59;
+    border-style:dotted;
+    border-color:#446620;
+    border-radius: 25px;
+}
+select{
+     background-color: #7B9B59;
+    border-style: groove;
+    border-color:#446620;
+    border-radius: 25px;
+}
+textarea{
+     background-color: #7B9B59;
+    border-style: groove;
+    border-color:#446620;
+    border-radius: 25px;
+}
+#inp2{
+    background-color:#9FBA81 ;
+    height: 10vh;
+    width: 15vh;
+}
+th{
+     background-color: #7B9B59;
+    border-style: solid;
+    margin: 0px;
+}
+#lew{
+    text-align: left;
+}
+#for51{
+    border-style: solid;
+     border-color:#446620;
+     border-radius: 10px;
+     width: 20%;
+     margin: auto auto auto 0;
+}
+#for52{
+    border-style: solid;
+     border-color:#446620;
+     border-radius: 10px;
+     width: 30%;
+     margin:auto auto 2% auto ;
+}
+#for53{
+    border-style: solid;
+     border-color:#446620;
+     border-radius: 10px;
+     width: 25%;
+     margin: auto auto auto 0;
